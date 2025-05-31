@@ -1,9 +1,22 @@
 body {
-    background: #f0f0f0;
+    background: linear-gradient(to bottom right, #171729, #54018e);
     font-family: "Hack Nerd Font", "Hack", monospace;
-    padding: 2rem;
+    padding-top: 40px;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-algin: center;
+    color: #eaeaea;
 }
 
-h1 {
-    color: #333;
+.about {
+    padding: 10px 50px;
+    
+}
+
+.title .highlight {
+    color: #9501FA;
 }
