@@ -1,22 +1,76 @@
+/* Top hero section */
+
 body {
-    background: linear-gradient(to bottom right, #171729, #54018e);
-    font-family: "Hack Nerd Font", "Hack", monospace;
-    padding-top: 40px;
+    font-family: "Hack Font", "Hack", monospace;
     margin: 0;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
     text-algin: center;
     color: #eaeaea;
 }
 
 .about {
-    padding: 10px 50px;
+    padding: 40px 50px;
+    font-size: 18px;
+    margin: 0 auto;
+    max-width: 1000px;
     
 }
 
 .title .highlight {
     color: #9501FA;
+}
+
+.title {
+    font-size: 35px;
+}
+
+.topBlock {
+    background: linear-gradient(to bottom right, #171729, #54018e);
+    padding: 10vh 5vh;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 40px;
+}
+
+.buttonStack .callButton {
+    background: #eaeaea;
+    color: #484848;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Hack Font", "Hack", monospace;
+    cursor: pointer; 
+}
+
+.buttonStack .aboutButton {
+    background: #eaeaea;
+    color: #484848;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Hack Font", "Hack", monospace;
+    cursor: pointer; 
+}
+
+
+/* My mission section */
+
+.missionSection {
+    color: #484848;
+    padding: 10vh 4vh;
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
 }
