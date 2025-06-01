@@ -40,18 +40,14 @@ body {
     padding-top: 40px;
 }
 
-.buttonStack .callButton {
-    background: #eaeaea;
-    color: #484848;
-    padding: 5px 15px;
-    border: none;
-    border-radius: 8px;
-    font-size: 16px;
-    font-weight: bold;
-    font-family: "Hack Font", "Hack", monospace;
-    cursor: pointer; 
+.buttonStack {
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    margin: 0 auto;
 }
 
+.buttonStack .callButton,
 .buttonStack .aboutButton {
     background: #eaeaea;
     color: #484848;
@@ -62,6 +58,16 @@ body {
     font-weight: bold;
     font-family: "Hack Font", "Hack", monospace;
     cursor: pointer; 
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.aboutButton:hover,
+.callButton:hover { 
+    color: #9501FA;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -93,4 +99,16 @@ body {
 
 .tool-icon {
     color: #484848;
+}
+
+.tool-icon .icon {
+    
+    color: #9501FA;
+}
+
+.tool-icon .icon svg {
+    display: inline-flex;
+    font-size: 0;
+    align-items: center;
+    margin-right: 0.3em;
 }
